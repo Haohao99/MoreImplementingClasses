@@ -95,6 +95,7 @@ class Baby(object):
 
     def feed_baby(self):
         print('Thank you for feeding baby' + self.name)
+        self.hour = 0
 
     def hour_passes(self):
         self.hour += 1
@@ -104,6 +105,9 @@ class Baby(object):
             print('Baby' + self.name+ 'is awake.  Time for food.')
         else:
             print('Baby' +self.name+'is CRYING uncontrollably!  Feed the Baby!')
+
+
+
 
 
 
